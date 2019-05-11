@@ -1,0 +1,10 @@
+def myfunc(*args):
+    mlist=[]
+    for x in args:
+        if x%2==0:
+            mlist.append(x)
+            
+    else:
+        return mlist
+   
+   
